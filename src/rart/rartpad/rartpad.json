@@ -2,8 +2,11 @@
   "name": "RARTPAD",
   "vendorId": "0x414C",
   "productId": "0x0050",
+  "matrix": {
+    "rows": 5,
+    "cols": 4
+  },
   "lighting": "qmk_rgblight",
-  "matrix": {"rows": 5, "cols": 4},
   "layouts": {
     "labels": [
       "2u Plus",
@@ -12,14 +15,13 @@
       "Left Encoder",
       "Right Encoder"
     ],
-
     "keymap": [
       [
-        "0,0\n\n\n3,1\n\n\n\n\n\ne0",
+        "0,0\n\n\n3,1\n\n\n\n\n\n\n\n\ne0",
         {
           "x": 2
         },
-        "0,3\n\n\n4,1\n\n\n\n\n\ne1"
+        "0,3\n\n\n4,1\n\n\n\n\n\n\n\n\ne1"
       ],
       [
         {
